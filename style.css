@@ -1,0 +1,196 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  width: calc(80% - 100px);
+  padding: 0 50px;
+  background: black;
+  z-index: 100;
+}
+
+nav .navlink {
+  text-decoration: none;
+  font-size: 30px;
+  color: white /*#fff*/;
+}
+
+.container {
+  display: block;
+  width: 80%;
+  height: auto;
+  margin: 100px auto;
+  padding: 0;
+  padding-bottom: 80px;
+  }
+
+header {
+  position: relative;
+  display: block;
+  width: 40%;
+  height: 600px;
+  padding: 0;
+  margin: 0;
+  background-image: url(https://i.pinimg.com/originals/1e/68/0a/1e680a346c7d5a5e11c6128ab3d6822f.jpg);
+  background-size: cover;  
+  background-repeat: no-repeat;
+  background-position: 5% 10%;
+}
+ 
+header .szoveg {
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  display: block;
+  width: 60%;
+  font-family: 'Abril Fatface', cursive;
+  color: #fff;
+}
+
+.szoveg h1 {
+  display: block;
+  width: 100%;
+  line-height: 1;
+  font-size: 60px;
+  margin: 0 0 20px 0;
+}
+
+.szoveg h3 {
+  display: block;
+  width: 100%;
+  font-size: 22px;
+}
+
+section {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+section .nagydoboz {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 100%;
+  margin: 30px auto;
+ }
+
+section .nagydoboz blockquote {
+  position: relative;
+  width: calc(40% - 100px);
+  background-color: #444;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 70px;
+  color: white;
+  text-align: center;
+  height: auto;
+  padding: 50px;
+}
+
+section .nagydoboz blockquote .idez {
+  position: absolute;
+  top: -30px;
+  left: 5px;
+  font-size: 130px;
+  color: white;
+}
+
+section .nagydoboz .doboz {
+  display: block;
+  width: calc(60% - 80px);
+  padding: 0 40px;
+ }
+
+section .nagydoboz .doboz .bekezd {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 50px 0;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+section .nagydoboz .doboz .alcim {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+section .nagydoboz .doboz .alcim .alcim2 {
+  display: block;
+  margin: 10px 0;
+  font-size: 15px;
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+}
+
+section .nagydoboz .doboz .tartalom {
+  display: block;
+  width: 100%;
+  height: auto;
+  line-height: 1.4;
+  font-size: 15px;
+}
+
+#bev, .fent {
+  line-height: 1.3;
+  font-size: 20px;
+}
+
+#bev {
+  margin-top: 30px;
+}
+
+ul {
+  line-height: 1.2;
+  font-size: 16px;
+  list-style: square;
+  width: 80%;
+  margin: 20px auto;
+}
+
+
+footer {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-top: 5px #000 solid;
+  background-color: #444;
+  padding: 30px 0;
+}
+
+footer .bekezd2 {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.ul {
+  line-height: 1.2;
+  font-size: 16px;
+  list-style: square;
+  margin: 20px 50px;
+  color: #fff;
+}
